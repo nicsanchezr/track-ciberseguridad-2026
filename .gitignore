@@ -1,0 +1,23 @@
+# OS / editores
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Node / herramientas
+node_modules/
+npm-debug.log*
+
+# Secretos y entornos
+.env
+.env.*
+*.local
+*.key
+*.pem
+
+# CTF — NUNCA subir al repo público
+**/flag.txt
+**/flags/
+**/solucion*/
+**/writeup-privado*/
