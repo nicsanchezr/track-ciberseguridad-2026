@@ -7,7 +7,7 @@
 Repositorio del track: material de los talleres, sistema de inscripción, Campeonato CTF y documentación.
 
 - **Profesor guía:** Nicolás Sánchez
-- **Alumnos líderes:** Pedro Campos 
+- **Alumnos líderes:** Pedro Campos · Gladys Espinoza
 - **Enfoque:** educativo y defensivo. Las técnicas ofensivas se practican solo en entornos controlados y autorizados.
 
 ## Mapa del repo
@@ -33,6 +33,14 @@ Repositorio del track: material de los talleres, sistema de inscripción, Campeo
 
 Son modulares: cada estudiante toma los que le interesen. **T1 es la base** para los demás.
 
+## Inscripción (GitHub Pages)
+
+El formulario vive en `docs/index.html` y guarda en una Google Sheet vía Apps Script (`backend/apps-script/`).
+
+1. Configura y publica el Apps Script (ver `backend/apps-script/README.md`).
+2. Pega tu URL `/exec` y tu `TOKEN` en `docs/index.html` (bloque CONFIG).
+3. **Settings → Pages → Deploy from a branch → `main` / `docs`.**
+4. (Opcional) dominio propio: `docs/CNAME` → `inscripcion.cybervaras.xyz`.
 
 ## Ética y seguridad
 
